@@ -4,7 +4,7 @@ from langchain.prompts import PromptTemplate
 def Groq(query):
     client = OpenAI(
         base_url="https://api.groq.com/openai/v1",
-        api_key="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"
+        api_key="api_key"
     )
     try:
         llm_response = client.chat.completions.create(
