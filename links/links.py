@@ -3,7 +3,7 @@ from typing import List
 from termcolor import colored
 
 def search_for_stock_videos(tags):
-    api_key ="nMCqvCEfIc6j3eNHaZ9vfLXiVjZb8j5bVtzUmYKj9QIpXKU93XbJhdLe"
+    api_key ="api key"
     headers = {
         "Authorization": api_key
     }
